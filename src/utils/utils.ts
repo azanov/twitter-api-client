@@ -1,5 +1,3 @@
-import { URLSearchParams } from 'url';
-
 export const createParams = (params?: { [key: string]: any }) => {
   if (!params) {
     return '';
